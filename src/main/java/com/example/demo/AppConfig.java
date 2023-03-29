@@ -22,7 +22,7 @@ public class AppConfig {
         return new MemoryMemberRepository();
     }
     public DiscountPolicy discountPolicy() {
-        return new FixDiscountPolicy();
+        return new RateDiscountPolicy();
     }
 
 }
